@@ -1,0 +1,26 @@
+.checkout{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}
+
+.checkout__ad{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.checkout__title{
+    padding: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.checkout__boldText{
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    color: #f6b91d;
+}
